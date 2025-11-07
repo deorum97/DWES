@@ -1,0 +1,16 @@
+{
+    "name": "cls/primer-composer",
+    "description": "primer uso del composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Cls\\PrimerComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge"
+        }
+    ],
+    "require": {}
+}
