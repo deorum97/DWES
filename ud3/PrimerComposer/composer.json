@@ -12,5 +12,7 @@
             "name": "Jorge"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
 }
