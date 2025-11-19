@@ -1,3 +1,8 @@
+<?php
+	require "../vendor/autoload.php";
+	use Jrm\bbdd\tools;
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +11,17 @@
 	<title>Archivo de entrada a la aplicación: formulario de login</title>
 </head>
 <body>
-	<h1> Incluye aquí tu formulario de Login </h1>
-	<p> Si el login es correcto redireciona al usuario a "principal.php", sino no le dejes pasar. </p>
+	<main>
+		<section>
+			<form action="login.php" method="post">
+				<label>Usuario: 
+					<input type="text" name="usuario">
+				</label>
+				<label>Contraseña: 
+					<input type="text" name="clave">
+				</label>
+			</form>
+		</section>
+	</main>
 </body>
 </html>
