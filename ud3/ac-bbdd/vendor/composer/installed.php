@@ -3,7 +3,7 @@
         'name' => 'jrm/bbdd',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '5df907915eb8aea603bf413255751b9f6062b5b7',
+        'reference' => 'e73da02c292ecef84847fb16c75867ba7be27792',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'jrm/bbdd' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '5df907915eb8aea603bf413255751b9f6062b5b7',
+            'reference' => 'e73da02c292ecef84847fb16c75867ba7be27792',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

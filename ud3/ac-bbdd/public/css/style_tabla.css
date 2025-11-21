@@ -1,0 +1,93 @@
+/* Centrado general */
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* Caja que contiene la tabla */
+.table-box {
+  padding: 20px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  border: 3px solid #000;
+  box-shadow: 6px 6px 0px #000;
+}
+
+/* Tabla */
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 600px;
+}
+
+/* Cabecera */
+.styled-table th {
+  background: #fff;
+  border: 2px solid #000;
+  padding: 12px;
+  font-size: 16px;
+  box-shadow: 4px 4px 0px #000;
+}
+
+/* Filas */
+.styled-table td {
+  border: 2px solid #000;
+  padding: 10px;
+  background: #f5f5f5;
+  box-shadow: 3px 3px 0px #000;
+}
+
+/* Alternancia de filas */
+.styled-table tr:nth-child(even) td {
+  background: #ececec;
+}
+
+/* Hover sobre fila */
+.styled-table tr:hover td {
+  background: #d1d1d1;
+}
+
+/*botones*/
+.crear_libro_btn,
+.borrar_libro_btn,
+.editar_libro_btn,
+.desloguear {
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.1s ease;
+}
+
+/* Efecto al pulsar */
+.crear_libro_btn:hover,
+.borrar_libro_btn,
+.editar_libro_btn {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0px #000;
+}
+
+.crear_libro_btn {
+  background: #fff;
+}
+
+.borrar_libro_btn {
+  background: #ca0a0a;
+}
+
+.editar_libro_btn {
+  background: #14a12b;
+}
+
+.desloguear {
+  box-shadow: 5px 5px 0px #000;
+  margin-left: 2em;
+}

@@ -26,6 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `hobby`
 --
+CREATE DATABASE `trabajo_dwes`;
+USE `trabajo_dwes`;
 
 CREATE TABLE `hobby` (
   `ID_libro` int NOT NULL,
