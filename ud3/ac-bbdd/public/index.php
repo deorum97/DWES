@@ -4,6 +4,9 @@
     use Jrm\Bbdd\tools\Conexion;
 
     session_start();
+    if(isset($_SESSION["id_usuario"])){
+        header("Location:principal.php");
+    }
 
     if($_SERVER["REQUEST_METHOD"]==="POST"){
         $usuario = $_POST["usuario"];
@@ -26,7 +29,7 @@
             if(!empty($result)){
                 $_SESSION["id_usuario"] = $result["id_usuario"];
                 $_SESSION["usuario"] = $result["nombre_usuario"];
-                header("Location:tabla_lectura.php");
+                header("Location:principal.php");
             }else{
                 $error = 'Usuario o contraseña incorrectos.';
             }

@@ -1,0 +1,92 @@
+[21-Nov-2025 15:06:53 UTC] PHP Warning:  Undefined variable $result in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\registro.php on line 28
+[21-Nov-2025 15:06:53 UTC] PHP Warning:  Trying to access array offset on value of type null in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\registro.php on line 28
+[21-Nov-2025 15:06:53 UTC] PHP Warning:  Undefined variable $result in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\registro.php on line 29
+[21-Nov-2025 15:06:53 UTC] PHP Warning:  Trying to access array offset on value of type null in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\registro.php on line 29
+[21-Nov-2025 15:07:00 UTC] PHP Warning:  Undefined array key "id_usuario" in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\index.php on line 27
+[21-Nov-2025 15:07:28 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro rompiendo pantallas: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ID_usuario' cannot be null in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:27
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\crear_libro.php(11): Jrm\Bbdd\GestorLectura->insertar()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 27
+[21-Nov-2025 15:08:19 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro rompiendo pantallas: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_usuario' cannot be null in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:27
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\crear_libro.php(11): Jrm\Bbdd\GestorLectura->insertar()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 27
+[21-Nov-2025 15:08:38 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro rompe marcos: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_usuario' cannot be null in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:27
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\crear_libro.php(11): Jrm\Bbdd\GestorLectura->insertar()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 27
+[21-Nov-2025 15:52:59 UTC] PHP Warning:  require(../tools/auth.php): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\index.php on line 3
+[21-Nov-2025 15:52:59 UTC] PHP Warning:  require(../tools/auth.php): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\index.php on line 3
+[21-Nov-2025 15:52:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../tools/auth.php' (include_path='.;C:\php\pear') in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\index.php:3
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\index.php on line 3
+[21-Nov-2025 16:02:50 UTC] PHP Warning:  require(E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\tools\auth.php): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php on line 3
+[21-Nov-2025 16:02:50 UTC] PHP Warning:  require(E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\tools\auth.php): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php on line 3
+[21-Nov-2025 16:02:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../tools/auth.php' (include_path='.;C:\php\pear') in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php:3
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php on line 3
+[21-Nov-2025 16:44:17 UTC] PHP Warning:  Undefined array key "id_usuario" in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 84
+[21-Nov-2025 16:44:17 UTC] PHP Warning:  Undefined array key "terminado" in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 88
+[21-Nov-2025 16:44:17 UTC] PHP Warning:  Undefined array key "fecha_lectura" in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 89
+[21-Nov-2025 16:44:17 UTC] PHP Warning:  Undefined array key "titulo_libro" in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:44:17 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro : SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_usuario' cannot be null in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:45:51 UTC] PHP Warning:  Undefined array key "titulo_libro" in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:45:51 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro : SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '21/11/2025' for column 'fecha_lectura' at row 1 in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:47:29 UTC] PHP Warning:  Undefined array key "titulo_libro" in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:47:29 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro : SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Las cronicas de narnia' for key 'hobby.titulo_libro' in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:48:04 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Las cronicas de narnia' for key 'hobby.titulo_libro' in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:48:14 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Las cronicas de narnia' for key 'hobby.titulo_libro' in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:49:44 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Las cronicas de narnia' for key 'hobby.titulo_libro' in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:50:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'RompePantallas' for key 'hobby.titulo_libro' in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:52:35 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'RompePantallas' for key 'hobby.titulo_libro' in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95
+[21-Nov-2025 16:53:00 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el libro: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'RompePantallas' for key 'hobby.titulo_libro' in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php:95
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php(100): Jrm\Bbdd\GestorLectura->transaccion()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\public\principal.php(26): Jrm\Bbdd\GestorLectura->testTransaccion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\ac-bbdd\src\GestorLectura.php on line 95

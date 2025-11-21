@@ -3,7 +3,8 @@
     require '../vendor/autoload.php';
 
     use Jrm\Bbdd\tools\Conexion;
-    class GestorLectura{
+    use Jrm\Bbdd\Acciones;
+    class GestorLectura implements Acciones{
         private \PDO $pdo;
 
         public function __construct() {
@@ -64,13 +65,39 @@
             }
         }
 
-        function listar():array{
+        public function listar():array{
             try{
                 $sqlSelect = $this->pdo->query("SELECT * FROM hobby", \PDO::FETCH_OBJ);
                 return $sqlSelect->fetchAll();
             }catch(\PDOException $e){
                 throw new \RuntimeException("Error al listar los libos: ".$e->getMessage());
             }
+        }
+
+        private function transaccion(array $datos){
+            try{
+                $this->pdo->beginTransaction();
+                $sqlInsert  = "INSERT INTO hobby(id_usuario,titulo_libro, autor, paginas, terminado, fecha_lectura) VALUES (:id_usuario,:titulo_libro,:autor,:paginas,:terminado,:fecha_lectura)";
+                $stmntInsert = $this->pdo->prepare($sqlInsert);
+                foreach($datos as $libro){
+                    $stmntInsert->execute([
+                        ":id_usuario" => $_SESSION["id_usuario"],
+                        ":titulo_libro" => $libro["titulo_libro"],
+                        ":autor" => $libro["autor"],
+                        ":paginas" => $libro["paginas"],
+                        ":terminado" => $libro["terminado"] ?? 0,
+                        ":fecha_lectura" => $libro["fecha_lectura"]?? "2025-11-13",
+                    ]);
+                }
+                $this->pdo->commit();
+            }catch(\PDOException $e){
+                $this->pdo->rollBack();
+                
+            }
+        }
+
+        public function testTransaccion( array $datos){
+            $this->transaccion($datos);
         }
     }
 ?>

@@ -4,6 +4,11 @@
     use Jrm\Bbdd\tools\Conexion;
 
     session_start();
+    if(isset($_SESSION["id_usuario"])){
+        header("Location:principal.php");
+    }else{
+		header("Location:index.php");
+	}
 
     if($_SERVER["REQUEST_METHOD"]==="POST"){
         $usuario = $_POST["usuario"];
@@ -25,8 +30,6 @@
             }else if($clave===$claveR){
                 $sqlInsert = "INSERT INTO usuarios(nombre_usuario, clave_usuario) VALUES ('$usuario', '$clave')";
                 $pdo->exec($sqlInsert);
-                $_SESSION["id_usuario"] = $result["id_usuario"];
-                $_SESSION["usuario"] = $result["nombre_usuario"];
                 $pdo=null;
                 header("Location:index.php");
             }else {
