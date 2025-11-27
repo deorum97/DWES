@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado Mascotas</title>
+    <link href="css/bootstrap.min_002.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    .container {
+        /* Si quieres que el contenedor ocupe todo el ancho disponible, puedes eliminar max-width */
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        display: flex;           /* Añade flex para que las tarjetas se muestren en línea */
+        flex-wrap: wrap;         /* Permite que las tarjetas se ajusten y pasen a la siguiente línea si no hay espacio */
+        justify-content: space-between; /* Espacio entre tarjetas. Puedes ajustar según prefieras */
+    }
+    .card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        /* Ancho de las tarjetas. Puedes ajustar según prefieras */
+        width: calc(33% - 10px); /* Esto asume que quieres 3 tarjetas por fila y resta 20px por el espacio entre tarjetas */
+        box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total de la tarjeta */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Listado de Mascotas</h1>
+         <!-- Fragmento para mostrar mensajes -->
+                <div>
+            Ordenar por:
+            <a href="#" class="btn btn-success mt-2">Nombre ASC</a> |
+            <a href="#" class="btn btn-warning">Nombre DES</a> |
+            <a href="#" class="btn btn-success mt-2">Tipo ASC</a> |
+            <a href="#" class="btn btn-warning">Tipo DES</a>
+        </div>
+            <div class="card">
+            <div class="card-content">
+                <img src="img/gato.jpeg" alt="Foto de Bernabe" class="img-fluid" style="max-width: 200px;">
+                <div class="card-text">
+                    <strong>Responsable:</strong> César López Sáenz<br>
+                    <strong>Nombre:</strong> Bernabe<br>
+                    <strong>Tipo:</strong> gato<br>
+                    <strong>Fecha de Nacimiento:</strong> 2013-05-07
+                </div>
+            </div>
+            <div>
+                <a href="#" class="btn btn-primary">Cambiar Foto</a> |
+                <a href="#" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div><div class="card">
+            <div class="card-content">
+                <img src="img/perro.jpeg" alt="Foto de Linga" class="img-fluid" style="max-width: 200px;">
+                <div class="card-text">
+                    <strong>Responsable:</strong> Amparo Larrañaga Iturza<br>
+                    <strong>Nombre:</strong> Linga<br>
+                    <strong>Tipo:</strong> perro<br>
+                    <strong>Fecha de Nacimiento:</strong> 2014-02-03
+                </div>
+            </div>
+            <div>
+                <a href="#" class="btn btn-primary">Cambiar Foto</a> |
+                <a href="#" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div><div class="card">
+            <div class="card-content">
+                <img src="img/tortuga2.jpeg" alt="Foto de Rallito" class="img-fluid" style="max-width: 200px;">
+                <div class="card-text">
+                    <strong>Responsable:</strong> Manolo Rodriguez del Bosque<br>
+                    <strong>Nombre:</strong> Rallito<br>
+                    <strong>Tipo:</strong> tortuga<br>
+                    <strong>Fecha de Nacimiento:</strong> 2015-09-21
+                </div>
+            </div>
+            <div>
+                <a href="#" class="btn btn-primary">Cambiar Foto</a> |
+                <a href="#" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div><div class="card">
+            <div class="card-content">
+                <img src="img/tortuga.jpeg" alt="Foto de Rampante" class="img-fluid" style="max-width: 200px;">
+                <div class="card-text">
+                    <strong>Responsable:</strong> Manolo Rodriguez del Bosque<br>
+                    <strong>Nombre:</strong> Rampante<br>
+                    <strong>Tipo:</strong> tortuga<br>
+                    <strong>Fecha de Nacimiento:</strong> 2016-01-19
+                </div>
+            </div>
+            <div>
+                <a href="#" class="btn btn-primary">Cambiar Foto</a> |
+                <a href="#" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div><div class="card">
+            <div class="card-content">
+                <img src="img/gato2.jpeg" alt="Foto de Sansón" class="img-fluid" style="max-width: 200px;">
+                <div class="card-text">
+                    <strong>Responsable:</strong> César López Sáenz<br>
+                    <strong>Nombre:</strong> Sansón<br>
+                    <strong>Tipo:</strong> gato<br>
+                    <strong>Fecha de Nacimiento:</strong> 2023-11-14
+                </div>
+            </div>
+            <div>
+                <a href="#" class="btn btn-primary">Cambiar Foto</a> |
+                <a href= "#" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div><div class="card">
+            <div class="card-content">
+                <img src="img/agaporni2.jpeg" alt="Foto de Torete" class="img-fluid" style="max-width: 200px;">
+                <div class="card-text">
+                    <strong>Responsable:</strong> Amparo Larrañaga Iturza<br>
+                    <strong>Nombre:</strong> Torete<br>
+                    <strong>Tipo:</strong> agaporni<br>
+                    <strong>Fecha de Nacimiento:</strong> 2019-01-15
+                </div>
+            </div>
+            <div>
+                <a href="#" class="btn btn-primary">Cambiar Foto</a> |
+                <a href="#" class="btn btn-danger">Eliminar</a>
+            </div>
+        </div>    
+    </div>
+    <div class="text-center mt-3">
+    <h1>Listados Efectuados (LOGs PERSISTENTES)</h1>
+    <table style="margin-left: auto; margin-right: auto;">
+        <thead>
+            <tr>
+                <th>Acción</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Listado Mascotas: por NOMBRE ASC.</td>
+                <td>2025-11-02 15:13:39</td>
+            </tr>
+            <tr>
+                <td>Listado Mascotas: por TIPO DESC.</td>
+                <td>2025-11-02 15:15:45</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Navegación Web (LOGs de SESIÓN)</h1>
+    <table style="margin-left: auto; margin-right: auto;">
+        <thead>
+            <tr>
+                <th>Acción</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Acción 1</td>
+                <td>Listado mascotas</td>
+            </tr>
+            <tr>
+                <td>Acción 2</td>
+                <td>Cambio foto mascota</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <div class="text-center mt-3">
+            <a href="#" class="btn btn-success mt-2">Registrar Mascota</a> | 
+            <a href="#" class="btn btn-secondary mt-2">Cerrar Sesión</a>
+    </div>
+    <script src="Listado%20Mascotas_files/bootstrap.min.js"></script>
+
+
+</body></html>

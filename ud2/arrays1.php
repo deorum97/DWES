@@ -24,7 +24,7 @@
     echo "$nombre <br>";
   }
 
-  foreach ( $arr2 as $codigo => $nobre ) {
+  foreach ( $arr2 as $codigo => $nombre ) {
     echo "Código: $codigo Nombre: $nombre <br>";
   }
 

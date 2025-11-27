@@ -1,0 +1,239 @@
+[25-Nov-2025 15:44:23 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\EvUd1\GestorMascotas" not found in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:11
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 11
+[25-Nov-2025 15:53:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:54:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:54:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:55:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:56:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:56:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:56:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:56:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:57:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:57:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:57:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Jrm\EvUd1\GestorMascotas::getResponsable(), 0 passed in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 68 and exactly 1 expected in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:59
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(68): Jrm\EvUd1\GestorMascotas->getResponsable()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 59
+[25-Nov-2025 15:58:18 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "nombre" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:69
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 69
+[25-Nov-2025 15:58:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "nombre" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:77
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Warning:  Attempt to read property "nombre" on array in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Warning:  Attempt to read property "nombre" on array in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Warning:  Attempt to read property "nombre" on array in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Warning:  Attempt to read property "nombre" on array in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Warning:  Attempt to read property "nombre" on array in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Warning:  Attempt to read property "nombre" on array in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 15:59:43 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 77
+[25-Nov-2025 16:10:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Jrm\EvUd1\GestorMascotas::getMascotas() in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\EditarFotoMascota.php:15
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\EditarFotoMascota.php on line 15
+[25-Nov-2025 16:54:59 UTC] PHP Parse error:  syntax error, unexpected token "use" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\AddMascota.php on line 10
+[25-Nov-2025 16:56:27 UTC] PHP Warning:  Undefined array key "REQUEST_MEHOD" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\AddMascota.php on line 11
+[25-Nov-2025 16:56:38 UTC] PHP Warning:  Undefined array key "REQUEST_METHOD" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\AddMascota.php on line 11
+[25-Nov-2025 17:13:32 UTC] PHP Warning:  Undefined array key "nueva_foto" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\AddMascota.php on line 12
+[25-Nov-2025 17:13:51 UTC] PHP Warning:  Undefined array key "foto" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\AddMascota.php on line 12
+[25-Nov-2025 17:14:22 UTC] PHP Warning:  Undefined array key "foto" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\AddMascota.php on line 12
+[25-Nov-2025 17:17:52 UTC] PHP Warning:  Undefined array key "foto" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\AddMascota.php on line 12
+[25-Nov-2025 17:18:29 UTC] PHP Warning:  Undefined array key "id" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\AddMascota.php on line 19
+[25-Nov-2025 17:18:29 UTC] PHP Warning:  Undefined array key "foto_url" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 67
+[25-Nov-2025 17:18:29 UTC] PHP Warning:  Undefined array key "id_persona" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 68
+[25-Nov-2025 17:19:10 UTC] PHP Warning:  Undefined array key "foto_url" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 67
+[25-Nov-2025 17:19:10 UTC] PHP Warning:  Undefined array key "id_persona" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 68
+[25-Nov-2025 17:24:14 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\Bbdd\GestorMascotas" not found in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php:10
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php on line 10
+[25-Nov-2025 17:24:41 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\Bbdd\GestorMascotas" not found in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php:10
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php on line 10
+[25-Nov-2025 17:25:16 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\Bbdd\GestorMascotas" not found in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php:10
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php on line 10
+[25-Nov-2025 17:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\EvUd1\GestorMascotas" not found in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php:10
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php on line 10
+[25-Nov-2025 17:26:08 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\EvUd1\GestorMascotas" not found in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php:10
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php on line 10
+[25-Nov-2025 17:26:11 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\EvUd1\GestorMascotas" not found in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php:10
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\BorrarMascota.php on line 10
+[25-Nov-2025 17:34:20 UTC] PHP Warning:  Undefined variable $error in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\EditarFotoMascota.php on line 113
+[25-Nov-2025 17:34:20 UTC] PHP Warning:  Undefined variable $error in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\EditarFotoMascota.php on line 113
+[25-Nov-2025 17:42:48 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 20
+[25-Nov-2025 17:45:07 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 20
+[25-Nov-2025 17:45:07 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 23
+[25-Nov-2025 17:45:07 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 26
+[25-Nov-2025 17:45:07 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 29
+[25-Nov-2025 17:45:41 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 20
+[25-Nov-2025 17:45:41 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 23
+[25-Nov-2025 17:45:41 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 26
+[25-Nov-2025 17:45:41 UTC] PHP Warning:  Undefined array key "lista" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 29
+[25-Nov-2025 17:54:02 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting ")" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 26
+[25-Nov-2025 17:54:47 UTC] PHP Warning:  Undefined array key "nombre" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 42
+[25-Nov-2025 17:54:47 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar la nueva mascota: : SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '25/11/2025' for column 'fecha' at row 1 in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:42
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(24): Jrm\EvUd1\GestorMascotas->insertarLog()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 42
+[25-Nov-2025 17:55:29 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el nuevo log: busqueda realizada: nombre ascendente: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '25/11/2025' for column 'fecha' at row 1 in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:42
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(24): Jrm\EvUd1\GestorMascotas->insertarLog()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 42
+[25-Nov-2025 17:55:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:26
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(26): date()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 26
+[25-Nov-2025 17:56:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: date_timestamp_get() expects exactly 1 argument, 0 given in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:26
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(26): date_timestamp_get()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 26
+[25-Nov-2025 17:57:18 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el nuevo log: busqueda realizada: nombre ascendente: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '25/11/2025' for column 'fecha' at row 1 in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:42
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(24): Jrm\EvUd1\GestorMascotas->insertarLog()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 42
+[25-Nov-2025 17:59:05 UTC] PHP Fatal error:  Uncaught TypeError: date_timestamp_get(): Argument #1 ($object) must be of type DateTimeInterface, string given in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:26
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(26): date_timestamp_get()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 26
+[25-Nov-2025 18:00:23 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el nuevo log: busqueda realizada: nombre ascendente: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'fecha' at row 1 in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:42
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(24): Jrm\EvUd1\GestorMascotas->insertarLog()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 42
+[25-Nov-2025 18:09:18 UTC] PHP Parse error:  syntax error, unexpected token "foreach" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 150
+[25-Nov-2025 18:09:35 UTC] PHP Parse error:  syntax error, unexpected token "foreach" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 150
+[25-Nov-2025 18:09:38 UTC] PHP Parse error:  syntax error, unexpected token "foreach" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 150
+[25-Nov-2025 18:10:09 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 154
+[25-Nov-2025 18:12:13 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el nuevo log: busqueda realizada: nombre ascendente: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'fecha' at row 1 in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:42
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(24): Jrm\EvUd1\GestorMascotas->insertarLog()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 42
+[25-Nov-2025 18:19:22 UTC] PHP Warning:  Undefined variable $datos in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 112
+[25-Nov-2025 18:19:22 UTC] PHP Fatal error:  Uncaught TypeError: array_merge(): Argument #2 must be of type array, null given in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:112
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php(112): array_merge()
+#1 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(32): Jrm\EvUd1\GestorMascotas->insertarLogSesion()
+#2 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 112
+[25-Nov-2025 18:19:51 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "i" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:148
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 148
+[25-Nov-2025 18:20:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "i" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:148
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 148
+[25-Nov-2025 18:20:10 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "i" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php:148
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php on line 148
+[25-Nov-2025 18:22:18 UTC] PHP Parse error:  syntax error, unexpected token "}" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 65
+[25-Nov-2025 18:22:34 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Jrm\EvUd1\this" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:64
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\EditarFotoMascota.php(55): Jrm\EvUd1\GestorMascotas->actualizarFoto()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 64
+[25-Nov-2025 18:22:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "this" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:64
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\EditarFotoMascota.php(55): Jrm\EvUd1\GestorMascotas->actualizarFoto()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 64
+[25-Nov-2025 18:23:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Jrm\EvUd1\insertarLogSesion() in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:64
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\EditarFotoMascota.php(55): Jrm\EvUd1\GestorMascotas->actualizarFoto()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 64
+[25-Nov-2025 18:23:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function insertarLogSesion() in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:64
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\EditarFotoMascota.php(55): Jrm\EvUd1\GestorMascotas->actualizarFoto()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 64
+[25-Nov-2025 18:37:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el nuevo log: busqueda realizada: nombre ascendente: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:42
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(24): Jrm\EvUd1\GestorMascotas->insertarLog()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 42
+[25-Nov-2025 18:37:28 UTC] PHP Fatal error:  Uncaught RuntimeException: Error al insertar el nuevo log: busqueda realizada: nombre ascendente: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1 in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:42
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\ListadoMascotas.php(24): Jrm\EvUd1\GestorMascotas->insertarLog()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 42
+[25-Nov-2025 18:47:18 UTC] PHP Parse error:  syntax error, unexpected token "if" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\Transaccion.php on line 14
+[25-Nov-2025 18:47:37 UTC] PHP Warning:  Undefined array key "id" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 135
+[25-Nov-2025 18:47:37 UTC] PHP Warning:  Undefined array key "nombre" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 136
+[25-Nov-2025 18:47:37 UTC] PHP Warning:  Undefined array key "tipo" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 137
+[25-Nov-2025 18:47:37 UTC] PHP Warning:  Undefined array key "fecha_nacimiento" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 138
+[25-Nov-2025 18:47:37 UTC] PHP Warning:  Undefined array key "foto_url" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 139
+[25-Nov-2025 18:47:37 UTC] PHP Warning:  Undefined array key "id_persona" in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 140
+[25-Nov-2025 18:49:10 UTC] PHP Warning:  Undefined variable $mascota in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\Transaccion.php on line 28
+[25-Nov-2025 18:49:10 UTC] PHP Fatal error:  Uncaught TypeError: Jrm\EvUd1\GestorMascotas::testTransaccion(): Argument #1 ($datos) must be of type array, null given, called in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\Transaccion.php on line 28 and defined in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php:149
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\public\Transaccion.php(28): Jrm\EvUd1\GestorMascotas->testTransaccion()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\EV_UD1-UD3-JorgeRodriguez\src\GestorMascotas.php on line 149

@@ -1,0 +1,16 @@
+{
+    "name": "jrm/ev-ud1",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jrm\\EvUd1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge Rodriguez",
+            "email": "jrodriguezm12@larioja.edu.es"
+        }
+    ],
+    "require": {}
+}
