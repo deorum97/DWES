@@ -1,0 +1,5 @@
+#ignora los node_modules
+/node_modules
+
+#ignora los vendor
+/vendor
