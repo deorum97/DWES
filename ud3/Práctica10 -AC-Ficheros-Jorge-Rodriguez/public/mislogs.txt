@@ -1,0 +1,82 @@
+[02-Dec-2025 16:27:08 UTC] PHP Warning:  mkdir(): File exists in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 7
+[02-Dec-2025 16:27:08 UTC] PHP Warning:  file_put_contents(alfabeto.php/a.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 38
+[02-Dec-2025 16:27:08 UTC] PHP Warning:  file_put_contents(alfabeto.php/f.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 38
+[02-Dec-2025 16:27:08 UTC] PHP Warning:  file_put_contents(alfabeto.php/k.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 38
+[02-Dec-2025 16:27:08 UTC] PHP Warning:  file_put_contents(alfabeto.php/p.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 38
+[02-Dec-2025 16:27:08 UTC] PHP Warning:  file_put_contents(alfabeto.php/u.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 38
+[02-Dec-2025 16:27:08 UTC] PHP Warning:  file_put_contents(alfabeto.php/z.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 38
+[02-Dec-2025 16:28:06 UTC] PHP Warning:  fopen(alfabeto.txt): Failed to open stream: Permission denied in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 14
+[02-Dec-2025 16:28:06 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:19
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(19): fwrite()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 19
+[02-Dec-2025 16:28:10 UTC] PHP Warning:  fopen(alfabeto.txt): Failed to open stream: Permission denied in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 14
+[02-Dec-2025 16:28:10 UTC] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:19
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(19): fwrite()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 19
+[02-Dec-2025 16:29:44 UTC] PHP Warning:  file_put_contents(alfabeto.txt/a.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 30
+[02-Dec-2025 16:29:44 UTC] PHP Warning:  file_put_contents(alfabeto.txt/f.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 30
+[02-Dec-2025 16:29:44 UTC] PHP Warning:  file_put_contents(alfabeto.txt/k.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 30
+[02-Dec-2025 16:29:44 UTC] PHP Warning:  file_put_contents(alfabeto.txt/p.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 30
+[02-Dec-2025 16:29:44 UTC] PHP Warning:  file_put_contents(alfabeto.txt/u.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 30
+[02-Dec-2025 16:29:44 UTC] PHP Warning:  file_put_contents(alfabeto.txt/z.txt): Failed to open stream: No such file or directory in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 30
+[02-Dec-2025 16:40:41 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:40:43 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:40:59 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:44:49 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:44:52 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:45:31 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:45:33 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:47:19 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:47:21 UTC] PHP Fatal error:  Uncaught ValueError: Different numbers of variable names and field specifiers in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php:28
+Stack trace:
+#0 E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php(28): fscanf()
+#1 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  Undefined variable $lienas in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  Undefined variable $lienas in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  Undefined variable $lienas in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  Undefined variable $lienas in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  Undefined variable $lienas in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  Undefined variable $lienas in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28
+[02-Dec-2025 16:52:52 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in E:\DWES\Ampps\www\daw\DWES\ud3\practica10\public\alfabeto.php on line 28

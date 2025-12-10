@@ -1,5 +1,5 @@
 <?php
-    namespace Jrm\bbdd\tools;
+    namespace jrm\bbdd\tools;
 
     class Conexion{
         public static function conectar():\PDO{

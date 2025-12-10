@@ -1,0 +1,19 @@
+{
+    "name": "jrm/bbdd",
+    "description": "Actividad 9. Manejo de BBDD.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+          "Jrm\\Bbdd\\": "src/",
+          "Jrm\\Bbdd\\Tools\\": "tools/",
+          "Jrm\\Bbdd\\Config\\": "config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "César López",
+            "email": "clopezs@iescomercio.com"
+        }
+    ],
+    "require": {}
+}

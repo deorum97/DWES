@@ -1,0 +1,16 @@
+{
+  "name": "jrm/practica10",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "jrm\\Practica10\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "JorgeRodriguez",
+      "email": "jrodriguezm12@larioja.edu.es"
+    }
+  ],
+  "require": {}
+}
