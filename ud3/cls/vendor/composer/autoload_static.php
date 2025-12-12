@@ -9,22 +9,22 @@ class ComposerStaticInit8196589308f6884447288f16e0bfc3ae
     public static $prefixLengthsPsr4 = array (
         'J' =>
         array (
-            'Jrm\\bbdd\\tools\\' => 15,
-            'Jrm\\bbdd\\config\\' => 16,
-            'Jrm\\bbdd\\' => 9,
+            'Jrm\\Bbdd\\Tools\\' => 15,
+            'Jrm\\Bbdd\\Config\\' => 16,
+            'Jrm\\Bbdd\\' => 9,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Jrm\\bbdd\\tools\\' =>
+        'Jrm\\Bbdd\\Tools\\' =>
         array (
             0 => __DIR__ . '/../..' . '/tools',
         ),
-        'Jrm\\bbdd\\config\\' =>
+        'Jrm\\Bbdd\\Config\\' =>
         array (
             0 => __DIR__ . '/../..' . '/config',
         ),
-        'Jrm\\bbdd\\' =>
+        'Jrm\\Bbdd\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

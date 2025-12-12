@@ -6,7 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Jrm\\bbdd\\tools\\' => array($baseDir . '/tools'),
-    'Jrm\\bbdd\\config\\' => array($baseDir . '/config'),
-    'Jrm\\bbdd\\' => array($baseDir . '/src'),
+    'Jrm\\Bbdd\\Tools\\' => array($baseDir . '/tools'),
+    'Jrm\\Bbdd\\Config\\' => array($baseDir . '/config'),
+    'Jrm\\Bbdd\\' => array($baseDir . '/src'),
 );

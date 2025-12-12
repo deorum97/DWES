@@ -1,0 +1,16 @@
+{
+    "name": "jrm/apco",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jrm\\Apco\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jorgeRodriguez",
+            "email": "jrodriguezm12@larioja.edu.es"
+        }
+    ],
+    "require": {}
+}

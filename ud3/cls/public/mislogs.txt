@@ -58,3 +58,23 @@ Stack trace:
 [24-Nov-2025 17:02:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "usuarios" in C:\xampp\htdocs\dwes\ud3\ac-bbdd\cls\tools\HtmlHelpers.php on line 10
 [24-Nov-2025 17:02:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "usuarios" in C:\xampp\htdocs\dwes\ud3\ac-bbdd\cls\tools\HtmlHelpers.php on line 10
 [24-Nov-2025 17:02:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "usuarios" in C:\xampp\htdocs\dwes\ud3\ac-bbdd\cls\tools\HtmlHelpers.php on line 10
+[10-Dec-2025 19:37:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[10-Dec-2025 19:37:06 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\Bbdd\Tools\Config" not found in E:\DWES\Ampps\www\daw\DWES\ud3\cls\public\index.php:11
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\cls\public\index.php on line 11
+[10-Dec-2025 19:37:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[10-Dec-2025 19:37:42 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\Bbdd\Tools\Config" not found in E:\DWES\Ampps\www\daw\DWES\ud3\cls\public\index.php:11
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\cls\public\index.php on line 11
+[10-Dec-2025 19:38:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[10-Dec-2025 19:38:38 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\Bbdd\Tools\Config" not found in E:\DWES\Ampps\www\daw\DWES\ud3\cls\public\index.php:11
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\cls\public\index.php on line 11
+[10-Dec-2025 19:38:50 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[10-Dec-2025 19:38:50 UTC] PHP Fatal error:  Uncaught Error: Class "Jrm\Bbdd\Tools\Config" not found in E:\DWES\Ampps\www\daw\DWES\ud3\cls\public\index.php:11
+Stack trace:
+#0 {main}
+  thrown in E:\DWES\Ampps\www\daw\DWES\ud3\cls\public\index.php on line 11
