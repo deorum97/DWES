@@ -5,7 +5,7 @@
         public static function conectar():\PDO{
             $servername = "localhost";
             $username = "root";
-            $password = "mysql";
+            $password = "";
             $database = "gestormascotas";
             $cadenaConexion= "mysql:host=$servername;dbname=$database;charset=utf8mb4";
 

@@ -9,11 +9,16 @@ class ComposerStaticInit050786537fe3fdba87ab25ea02d468c7
     public static $prefixLengthsPsr4 = array (
         'J' =>
         array (
+            'Jrm\\Apco\\Tools\\' => 15,
             'Jrm\\Apco\\' => 9,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Jrm\\Apco\\Tools\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/tools',
+        ),
         'Jrm\\Apco\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',

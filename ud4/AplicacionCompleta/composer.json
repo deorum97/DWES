@@ -3,7 +3,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Jrm\\Apco\\": "src/"
+            "Jrm\\Apco\\": "src/",
+            "Jrm\\Apco\\Tools\\": "tools/"
         }
     },
     "authors": [

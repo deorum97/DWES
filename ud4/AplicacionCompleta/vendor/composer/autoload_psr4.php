@@ -6,5 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Jrm\\Apco\\Tools\\' => array($baseDir . '/tools'),
     'Jrm\\Apco\\' => array($baseDir . '/src'),
 );
