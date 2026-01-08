@@ -2,27 +2,27 @@
 
 use Jrm\Apco\Tools\Conexion;
  class Producto {
-     private $id;
-     private $nombre;
-     private $descripcion;
-     private $peso;
-     private $stock;
-     private $categoria;
+     private $CodProd;
+     private $Nombre;
+     private $Descripcion;
+     private $Peso;
+     private $Stock;
+     private $CodCat;
 
-     public function __construct($id, $nombre, $descripcion, $peso, $stock, $categoria){
-         $this->id=$id;
-         $this->nombre=$nombre;
-         $this->descripcion=$descripcion;
-         $this->peso=$peso;
-         $this->stock=$stock;
-         $this->categoria=$categoria;
+     public function __construct($CodProd, $Nombre, $Descripcion, $Peso, $Stock, $CodCat){
+         $this->CodProd=$CodProd;
+         $this->Nombre=$Nombre;
+         $this->Descripcion=$Descripcion;
+         $this->Peso=$Peso;
+         $this->Stock=$Stock;
+         $this->CodCat=$CodCat;
      }
 
-     public static function getProductosPorCategoria(int $codCat){
+     public static function getProductosPorCodCat(int $CodCat){
         $pdo = \Jrm\Apco\Tools\Conexion::getConexion();
-        $sql = "SELECT * FROM producto WHERE codCat = :codCat";
+        $sql = "SELECT * FROM productos WHERE CodCat = :CodCat";
         $stmnt = $pdo->prepare($sql);
-        $stmnt->bindParam(':codCat',$codCat);
+        $stmnt->bindParam(':CodCat',$CodCat);
         $stmnt->execute();
 
         return $stmnt->fetchAll();

@@ -1,21 +1,21 @@
 <?php
     class LineaPedido{
-        private $idPedido;
-        private $producto;
-        private $unidades;
+        private $CodPed;
+        private $CodProd;
+        private $Unidades;
 
-        public function __construct($idPedido, $producto, $unidades){
-            $this->idPedido=$idPedido;
-            $this->producto=$producto;
-            $this->unidades=$unidades;
+        public function __construct($CodPed, $CodProd, $Unidades){
+            $this->CodPed=$CodPed;
+            $this->CodProd=$CodProd;
+            $this->Unidades=$Unidades;
         }
 
         public function guardar(\PDO $pdo){
-            $sql = "INSERT INTO lineapedido VALUES (null, :idPedido, :producto, :unidades)";
+            $sql = "INSERT INTO pedidosproductos VALUES (null, :CodPed, :CodProd, :Unidades)";
             $stmnt = $pdo->prepare($sql);
-            $stmnt->bindParam(':idPedido',$this->idPedido);
-            $stmnt->bindParam(':producto',$this->producto);
-            $stmnt->bindParam(':unidades',$this->unidades);
+            $stmnt->bindParam(':CodPed',$this->CodPed);
+            $stmnt->bindParam(':CodProd',$this->CodProd);
+            $stmnt->bindParam(':Unidades',$this->Unidades);
             $stmnt->execute();
         }
     }

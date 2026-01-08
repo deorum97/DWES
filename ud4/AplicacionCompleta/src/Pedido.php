@@ -2,25 +2,25 @@
 
 use Jrm\Apco\Tools\Conexion;
  class Pedido {
-     private $id;
-     private $restaurante;
-     private $enviado;
-     private $fecha;
-    public function __construct($id, $restaurante, $enviado, $fecha){
-        $this->id=$id;
-        $this->restaurante=$restaurante;
-        $this->enviado=$enviado;
-        $this->fecha=$fecha;
+     private $CodPed;
+     private $CodRes;
+     private $Enviado;
+     private $Fecha;
+    public function __construct($CodPed, $CodRes, $Enviado, $Fecha){
+        $this->CodPed=$CodPed;
+        $this->CodRes=$CodRes;
+        $this->Enviado=$Enviado;
+        $this->Fecha=$Fecha;
     }
 
     public static function guardar()
     {
         $pdo = Conexion::getConexion();
-        $sql = "INSERT INTO pedido VALUES (null, :restaurante, :enviado, :fecha)";
+        $sql = "INSERT INTO pedidos VALUES (null, :Fecha, :Enviado,:CodRes,)";
         $stmnt = $pdo->prepare($sql);
-        $stmnt->bindParam(':restaurante',$restaurante);
-        $stmnt->bindParam(':enviado',$enviado);
-        $stmnt->bindParam(':fecha',$fecha);
+        $stmnt->bindParam(':CodRes',$restaurCodResante);
+        $stmnt->bindParam(':Enviado',$Enviado);
+        $stmnt->bindParam(':Fecha',$Fecha);
         $stmnt->execute();
     }
  }
