@@ -1,5 +1,5 @@
 <?php
-    namespace Jrm\Apco\Src;
+    namespace Jrm\Apco;
     require '../vendor/autoload.php';
 
     use Jrm\Apco\Tools\Conexion;
@@ -22,21 +22,21 @@
 
         public static function getAllCategorias(){
             $pdo = Conexion::getConexion();
-            $sql = "SELECT * FROM categoria";
+            $sql = "SELECT * FROM categorias";
             $stmnt = $pdo->prepare($sql);
             $stmnt->execute();
             $categorias = [];
             while($row = $stmnt->fetch()){
-                $categorias[] = new Categoria($row['codCat'],$row['nombre'],$row['descripcion']);
+                $categorias[] = new Categoria($row['CodCat'],$row['Nombre'],$row['Descripcion']);
             }
             return $categorias;
         }
 
         public static function getCategoriaPorId(int $codCat){
             $pdo = Conexion::getConexion();
-            $sql = "SELECT * FROM categoria WHERE codCat = :codCat";
+            $sql = "SELECT * FROM categorias WHERE CodCat = :CodCat";
             $stmnt = $pdo->prepare($sql);
-            $stmnt->bindParam(':codCat',$codCat);
+            $stmnt->bindParam(':CodCat',$codCat);
             $stmnt->execute();
             return $stmnt->fetch();
         }
