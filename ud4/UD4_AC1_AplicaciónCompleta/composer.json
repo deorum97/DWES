@@ -1,22 +1,22 @@
 {
-    "name": "mrs/restaurante",
-    "description": "Ejercicio de gestion de restaurantes",
-    "type": "project",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Mrs\\Restaurante\\": "src/",
-            "Mrs\\tools\\": "tools/"
-        }
-    },
-    "authors": [
-        {
-            "name": "MarcosRSPG",
-            "email": "marcosrs.softwaredeveloper@gmail.com"
-        }
-    ],
-    "require": {
-        "phpmailer/phpmailer": "^7.0",
-        "ramsey/uuid": "^4.9"
+  "name": "jrm/restaurante",
+  "description": "Ejercicio de gestion de restaurantes",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Jrm\\Restaurante\\": "src/",
+      "Jrm\\tools\\": "tools/"
     }
+  },
+  "authors": [
+    {
+      "name": "jorgeRodriguez",
+      "email": "rjoge676@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^7.0",
+    "ramsey/uuid": "^4.9"
+  }
 }

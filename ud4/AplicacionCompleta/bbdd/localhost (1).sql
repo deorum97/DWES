@@ -55,7 +55,7 @@ CREATE TABLE `pedidos` (
   `CodPed` int NOT NULL,
   `Fecha` datetime DEFAULT NULL,
   `Enviado` tinyint(1) DEFAULT NULL,
-  `CodRes` int DEFAULT NULL
+  `Restaurante` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
@@ -66,8 +66,8 @@ CREATE TABLE `pedidos` (
 
 CREATE TABLE `pedidosproductos` (
   `CodPedProd` int NOT NULL,
-  `CodPed` int DEFAULT NULL,
-  `CodProd` int DEFAULT NULL,
+  `Pedido` int DEFAULT NULL,
+  `Producto` int DEFAULT NULL,
   `Unidades` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
@@ -83,14 +83,14 @@ CREATE TABLE `productos` (
   `Descripcion` text,
   `Peso` decimal(10,2) DEFAULT NULL,
   `Stock` int DEFAULT NULL,
-  `CodCat` int DEFAULT NULL
+  `Categoria` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Volcado de datos para la tabla `productos`
 --
 
-INSERT INTO `productos` (`CodProd`, `Nombre`, `Descripcion`, `Peso`, `Stock`, `CodCat`) VALUES
+INSERT INTO `productos` (`CodProd`, `Nombre`, `Descripcion`, `Peso`, `Stock`, `Categoria`) VALUES
 (1, 'Cerveza', 'Cerveza rubia 33cl', 330.00, 100, 1),
 (2, 'Vino tinto', 'Vino tinto de la casa', 750.00, 50, 1),
 (3, 'Vino blanco', 'Vino blanco seco', 750.00, 40, 1),
@@ -123,6 +123,10 @@ CREATE TABLE `restaurantes` (
   `Direccion` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+INSERT INTO `restaurantes` (`CodRes`, `Correo`, `Clave`, `Pais`, `CP`, `Ciudad`, `Direccion`) VALUES
+(1, 'pedidos@tabernalarioja.es', 'rioja2025', 'España', 26001, 'Logroño', 'C/ Laurel 12'),
+(2, 'contacto@alfarogrill.es', 'alfaro2025', 'España', 26540, 'Alfaro', 'Av. Zaragoza 44');
+
 --
 -- Índices para tablas volcadas
 --
@@ -138,22 +142,22 @@ ALTER TABLE `categorias`
 --
 ALTER TABLE `pedidos`
   ADD PRIMARY KEY (`CodPed`),
-  ADD KEY `fk_pedidos_restaurante` (`CodRes`);
+  ADD KEY `fk_pedidos_restaurante` (`Restaurante`);
 
 --
 -- Indices de la tabla `pedidosproductos`
 --
 ALTER TABLE `pedidosproductos`
   ADD PRIMARY KEY (`CodPedProd`),
-  ADD KEY `fk_pp_pedido` (`CodPed`),
-  ADD KEY `fk_pp_producto` (`CodProd`);
+  ADD KEY `fk_pp_pedido` (`Pedido`),
+  ADD KEY `fk_pp_producto` (`Producto`);
 
 --
 -- Indices de la tabla `productos`
 --
 ALTER TABLE `productos`
   ADD PRIMARY KEY (`CodProd`),
-  ADD KEY `fk_productos_categoria` (`CodCat`);
+  ADD KEY `fk_productos_categoria` (`Categoria`);
 
 --
 -- Indices de la tabla `restaurantes`
@@ -203,20 +207,20 @@ ALTER TABLE `restaurantes`
 -- Filtros para la tabla `pedidos`
 --
 ALTER TABLE `pedidos`
-  ADD CONSTRAINT `fk_pedidos_restaurante` FOREIGN KEY (`CodRes`) REFERENCES `restaurantes` (`CodRes`) ON DELETE CASCADE;
+  ADD CONSTRAINT `fk_pedidos_restaurante` FOREIGN KEY (`Restaurante`) REFERENCES `restaurantes` (`CodRes`) ON DELETE CASCADE;
 
 --
 -- Filtros para la tabla `pedidosproductos`
 --
 ALTER TABLE `pedidosproductos`
-  ADD CONSTRAINT `fk_pp_pedido` FOREIGN KEY (`CodPed`) REFERENCES `pedidos` (`CodPed`) ON DELETE CASCADE,
-  ADD CONSTRAINT `fk_pp_producto` FOREIGN KEY (`CodProd`) REFERENCES `productos` (`CodProd`) ON DELETE CASCADE;
+  ADD CONSTRAINT `fk_pp_pedido` FOREIGN KEY (`Pedido`) REFERENCES `pedidos` (`CodPed`) ON DELETE CASCADE,
+  ADD CONSTRAINT `fk_pp_producto` FOREIGN KEY (`Producto`) REFERENCES `productos` (`CodProd`) ON DELETE CASCADE;
 
 --
 -- Filtros para la tabla `productos`
 --
 ALTER TABLE `productos`
-  ADD CONSTRAINT `fk_productos_categoria` FOREIGN KEY (`CodCat`) REFERENCES `categorias` (`CodCat`) ON DELETE SET NULL;
+  ADD CONSTRAINT `fk_productos_categoria` FOREIGN KEY (`Categoria `) REFERENCES `categorias` (`CodCat`) ON DELETE SET NULL;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -13,5 +13,7 @@
             "email": "jrodriguezm12@larioja.edu.es"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
 }

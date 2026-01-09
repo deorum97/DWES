@@ -1,28 +1,29 @@
 <?php
-
+namespace Jrm\Apco;
+require '../vendor/autoload.php';
 use Jrm\Apco\Tools\Conexion;
  class Producto {
-     private $CodProd;
-     private $Nombre;
-     private $Descripcion;
-     private $Peso;
-     private $Stock;
-     private $CodCat;
+     private $codProd;
+     private $nombre;
+     private $descripcion;
+     private $peso;
+     private $stock;
+     private $categoria;
 
-     public function __construct($CodProd, $Nombre, $Descripcion, $Peso, $Stock, $CodCat){
-         $this->CodProd=$CodProd;
-         $this->Nombre=$Nombre;
-         $this->Descripcion=$Descripcion;
-         $this->Peso=$Peso;
-         $this->Stock=$Stock;
-         $this->CodCat=$CodCat;
+     public function __construct($codProd, $nombre, $descripcion, $peso, $stock, $categoria){
+         $this->codProd=$codProd;
+         $this->nombre=$nombre;
+         $this->descripcion=$descripcion;
+         $this->peso=$peso;
+         $this->stock=$stock;
+         $this->categoria=$categoria;
      }
 
-     public static function getProductosPorCodCat(int $CodCat){
+     public static function getProductosPorcategoria(int $categoria){
         $pdo = \Jrm\Apco\Tools\Conexion::getConexion();
-        $sql = "SELECT * FROM productos WHERE CodCat = :CodCat";
+        $sql = "SELECT * FROM productos WHERE Categoria = :categoria";
         $stmnt = $pdo->prepare($sql);
-        $stmnt->bindParam(':CodCat',$CodCat);
+        $stmnt->bindParam(':categoria',$categoria);
         $stmnt->execute();
 
         return $stmnt->fetchAll();

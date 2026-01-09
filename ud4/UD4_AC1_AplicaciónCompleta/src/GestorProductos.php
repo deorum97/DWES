@@ -52,34 +52,6 @@ class GestorProductos
         return $row ?: null;
     }
 
-
-    public static function insertProducto(Producto $producto): void
-    {
-        $sql = "INSERT INTO productos (CodProd, Nombre, Descripcion, Peso, Stock, Categoria)
-                VALUES (:CodProd, :Nombre, :Descripcion, :Peso, :Stock, :Categoria)";
-        $stmt = self::pdo()->prepare($sql);
-        $stmt->execute($producto->toDbParams());
-    }
-
-
-    public static function updateProducto(Producto $producto): void
-    {
-        $sql = "UPDATE productos
-                SET Nombre = :Nombre, Descripcion = :Descripcion, Peso = :Peso, Stock = :Stock, Categoria = :Categoria
-                WHERE CodProd = :CodProd";
-        $stmt = self::pdo()->prepare($sql);
-        $stmt->execute($producto->toDbParams());
-    }
-
-
-    public static function deleteProducto(string $id): void
-    {
-        $sql = "DELETE FROM productos WHERE CodProd = :id";
-        $stmt = self::pdo()->prepare($sql);
-        $stmt->execute(['id' => $id]);
-    }
-
-
     public static function restarStock(string $codProd, int $unidades, ?PDO $pdo = null): bool
     {
         if ($unidades <= 0) return true;

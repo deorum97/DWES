@@ -9,6 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <a href="Categorias.php">Categorias</a>
 </body>
 </html>

@@ -19,7 +19,6 @@ class Pedido
     }
 
     public function getCodPed(): string { return $this->codPed; }
-    public function getRestaurante(): string { return $this->restaurante; }
 
     public function toDbParams(): array
     {

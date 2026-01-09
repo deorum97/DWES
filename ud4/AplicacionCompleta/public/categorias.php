@@ -23,7 +23,8 @@ try {
         <h2>Lista Categorias</h2>
         <ul>
             <?php foreach ($categorias as $categoria): ?>
-                <li><?php echo $categoria->getNombre() ?></li>
+                <li><a href="productos.php?cat=<?php echo $categoria->getId() ?>"><?php echo $categoria->getNombre() ?></a></li>
+                
             <?php endforeach; ?>
         </ul>
     </section>

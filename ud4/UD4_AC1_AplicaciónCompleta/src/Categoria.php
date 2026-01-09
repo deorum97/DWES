@@ -17,25 +17,6 @@ class Categoria
         $this->descripcion = $descripcion;
     }
 
-    public static function fromArray(array $fila): self
-    {
-        $id = $fila['CodCat'] ?? $fila['id'] ?? null;
-
-        return new self(
-            $fila['Nombre'] ?? $fila['nombre'] ?? '',
-            $fila['Descripcion'] ?? $fila['descripcion'] ?? '',
-            $id
-        );
-    }
-
-    public function toArray(): array
-    {
-        return [
-            'id' => $this->id,
-            'nombre' => $this->nombre,
-            'descripcion' => $this->descripcion,
-        ];
-    }
     public function toDbParams(): array
     {
         return [

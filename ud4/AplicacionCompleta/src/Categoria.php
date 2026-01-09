@@ -19,6 +19,10 @@
         {
             return $this->nombre;
         }
+        public function getId()
+        {
+            return $this->codCat;
+        }
 
         public static function getAllCategorias(){
             $pdo = Conexion::getConexion();
