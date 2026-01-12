@@ -30,7 +30,7 @@
             $stmnt = $pdo->prepare($sql);
             $stmnt->execute();
             $categorias = [];
-            while($row = $stmnt->fetch()){
+            while($row = $stmnt->fetch(\PDO::FETCH_ASSOC)){
                 $categorias[] = new Categoria($row['CodCat'],$row['Nombre'],$row['Descripcion']);
             }
             return $categorias;
@@ -42,6 +42,14 @@
             $stmnt = $pdo->prepare($sql);
             $stmnt->bindParam(':CodCat',$codCat);
             $stmnt->execute();
-            return $stmnt->fetch();
+            $row = $stmnt->fetch(\PDO::FETCH_ASSOC);
+            if ($row) {
+                return new Categoria(
+                    $row['CodCat'],
+                    $row['Nombre'],
+                    $row['Descripcion']
+                );
+            }
+            return null;
         }
     }

@@ -1,7 +1,13 @@
 <?php
+session_start();
 require_once "../vendor/autoload.php";
 
 use Jrm\Apco\Categoria;
+
+if (!isset($_SESSION['correo'])) {
+    header('Location: index.php');
+    exit;
+}
 
 try {
     $categorias = Categoria::getAllCategorias();
@@ -18,6 +24,12 @@ try {
 </head>
 <body>
 <main>
+    <h2>Usuario</h2>
+    <ul>
+        <li>Usuario: <?php echo $_SESSION["correo"]?></li>
+        <li><a href="carrito.php">Ver carrito</a></li>
+        <li><a href="logout.php">Cerrar sesion</a></li>
+    </ul>
     <h1>Categorias</h1>
     <section>
         <h2>Lista Categorias</h2>

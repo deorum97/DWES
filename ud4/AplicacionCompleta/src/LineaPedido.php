@@ -1,4 +1,8 @@
 <?php
+namespace Jrm\Apco;
+
+use Jrm\Apco\Tools\Conexion;
+
     class LineaPedido{
         private $codPed;
         private $producto;
@@ -10,7 +14,8 @@
             $this->unidades=$unidades;
         }
 
-        public function guardar(\PDO $pdo){
+        public function guardar(){
+            $pdo = Conexion::getConexion();
             $sql = "INSERT INTO pedidosproductos VALuES (null, :codPed, :producto, :unidades)";
             $stmnt = $pdo->prepare($sql);
             $stmnt->bindParam(':codPed',$this->codPed);
