@@ -13,4 +13,11 @@
 
             $this->vista('paginas/inicio', $datos);    
         }
+
+        public function quienes_somos(){
+            $datos = [
+                'titulo' => 'Quienes somos',
+            ];
+            $this->vista('paginas/quienes-somos', $datos);
+        }
     }

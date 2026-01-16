@@ -13,7 +13,7 @@ define('RUTA_APP', dirname(dirname(__FILE__)));
 
 //Ruta url Ejemplo: http://localhost/ud5/mvc2app
 //define ('RUTA_URL', '_URL_');
-define ('RUTA_URL', 'http://localhost/ud5/mvc2app');
+define ('RUTA_URL', 'http://localhost/daw/DWES/ud5/mvc2app');
 
 //define ('NOMBRESITIO', '_NOMBRE_SITIO');
 define ('NOMBRESITIO', 'ED 23 - 24');

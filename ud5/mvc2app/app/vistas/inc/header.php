@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="id=edge">
     <link rel="stylesheet" type="text/css" href="<?php echo RUTA_URL?>/css/estilos.css">
     <title><?php echo NOMBRESITIO; ?> </title>
+    <nav>
+        <a href="<?php echo RUTA_URL ?>/">Inicio</a>
+        <a href="<?php echo RUTA_URL ?>/paginas/quienes_somos">Quienes somos</a>
+        <a href="<?php echo RUTA_URL ?>/paginas/tienda">Tienda</a>
+        <a href="<?php echo RUTA_URL ?>/articulos/index">Articulos</a>
+    </nav>
 </head>
 <body>
     
