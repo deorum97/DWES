@@ -1,6 +1,4 @@
 <?php
-namespace App\Librerias;
-
 /*
 Mapear URL desde el navegador
 1- controlador
@@ -13,7 +11,7 @@ formato de la url: BASE_DIR/controlador/metodo/parametro
 
 class Core{
     //controlador base o por defecto
-    protected $controladorActual = 'Paginas';
+    protected $controladorActual = 'paginas';
     protected $metodoActual = 'index';
     protected $parametros = [];
     public $url = '';
@@ -33,9 +31,9 @@ class Core{
             unset($url[0]);
         }
 
-        //requerir el controlador (opcional si usamos autoload, pero para el nombre de la clase es necesario el namespace)
-        $nombreClase = 'App\\Controladores\\' . $this->controladorActual;
-        $this->controladorActual = new $nombreClase;
+        //requerir el controlador
+        require_once '../app/controladores/'.$this->controladorActual.'.php';
+        $this->controladorActual = new $this->controladorActual;
 
         //comprobar la segunda parte de la url: el metodo
         if (isset($url[1])){
@@ -54,9 +52,7 @@ class Core{
         $this->parametros = $url ? array_values($url) : [];
 
         // Llamar callback con parametros array
-        if (isset($this->controladorActual) && method_exists($this->controladorActual, $this->metodoActual)) {
-            call_user_func_array([$this->controladorActual, $this->metodoActual], $this->parametros);
-        }
+        call_user_func_array([$this->controladorActual, $this->metodoActual], $this->parametros);
     }
 
     public function getUrl(): ?array

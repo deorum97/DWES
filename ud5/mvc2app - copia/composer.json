@@ -1,0 +1,15 @@
+{
+    "name": "vespertino/mvc2app",
+    "autoload": {
+        "psr-4": {
+            "Vespertino\\Mvc2app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "deorum97",
+            "email": "jorge.r.9763@gmail.com"
+        }
+    ],
+    "require": {}
+}

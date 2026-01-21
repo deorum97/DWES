@@ -11,7 +11,6 @@
         <a href="<?php echo RUTA_URL ?>/paginas/quienes_somos">Quienes somos</a>
         <a href="<?php echo RUTA_URL ?>/paginas/tienda">Tienda</a>
         <a href="<?php echo RUTA_URL ?>/articulos/index">Articulos</a>
-        <a href="<?php echo RUTA_URL ?>/categorias/index">Categorias</a>
     </nav>
 </head>
 <body>

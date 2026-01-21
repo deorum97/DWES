@@ -1,17 +1,12 @@
 <?php
-namespace App\Librerias;
-
-use App\Config\Config;
-use PDO;
-use PDOException;
 
     //Clase para conectarse a la base de datos y ejecutar consultas PDO
 
     class Db{
-        private $host;
-        private $usuario;
-        private $password;
-        private $nombre_db;
+        private $host = DB_HOST;
+        private $usuario = DB_USUARIO;
+        private $password = DB_PASSWORD;
+        private $nombre_db = DB_NOMBRE;
 
         private $dbh; // database handler (manejador de base de datos)
         private $stmt;
@@ -19,12 +14,6 @@ use PDOException;
 
         public function __construct()
         {
-            $config = Config::getInstance();
-            $this->host = $config->get('database', 'host');
-            $this->usuario = $config->get('database', 'user');
-            $this->password = $config->get('database', 'pass');
-            $this->nombre_db = $config->get('database', 'dbname');
-
             //configurar conextion
             $dsn = 'mysql:host='.$this->host.';dbname='.$this->nombre_db;
             $opciones = array(

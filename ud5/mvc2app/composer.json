@@ -1,0 +1,19 @@
+{
+    "name": "vespertino/mvc2app",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Librerias\\": "app/librerias/",
+            "App\\Modelos\\": "app/modelos/",
+            "App\\Vistas\\": "app/vistas/",
+            "App\\Controladores\\": "app/controladores/"
+        }
+    },
+    "authors": [
+        {
+            "name": "deorum97",
+            "email": "jorge.r.9763@gmail.com"
+        }
+    ],
+    "require": {}
+}

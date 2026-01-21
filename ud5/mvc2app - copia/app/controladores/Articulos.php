@@ -1,11 +1,8 @@
 <?php
-namespace App\Controladores;
-
-use App\Librerias\Controlador;
 
     class Articulos extends Controlador{
         public function __construct(){
-            // echo 'Controlador Artículos cargado';
+            echo 'Controlador Artículos cargado';
             $this->articuloModelo = $this->modelo('Articulo');
         }
 

@@ -15,4 +15,4 @@
     //$BASE = $_SERVER['DOCUMENT_ROOT'];
 
     // Instanciamos el controlador
-    $iniciar = new App\Librerias\Core();
+    $iniciar = new Core();

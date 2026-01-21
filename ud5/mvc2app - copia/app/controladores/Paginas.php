@@ -1,7 +1,4 @@
 <?php
-namespace App\Controladores;
-
-use App\Librerias\Controlador;
 
     class Paginas extends Controlador{
 

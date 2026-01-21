@@ -1,7 +1,4 @@
 <?php
-namespace App\Modelos;
-
-use App\Librerias\Db;
 
 class Articulo{ 
     private $bd;

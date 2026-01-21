@@ -1,5 +1,4 @@
 <?php
-namespace App\Librerias;
 
 //Clase controlador principal
 //Carga los modelos y las vistas.
@@ -9,9 +8,9 @@ class Controlador{
     //Cargar modelo
     public function modelo ($modelo){
         //carga
-        $claseModelo = 'App\\Modelos\\' . $modelo;
+        require_once '../app/modelos/'.$modelo.'.php';
         //Instanciar el modelo
-        return new $claseModelo();
+        return new $modelo();
     }
 
     //Cargar vista
