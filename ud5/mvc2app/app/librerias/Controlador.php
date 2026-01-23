@@ -18,6 +18,7 @@ class Controlador{
     public function vista($vista, $datos = []){
         //Comprobar si existe el archivo de vista.
         if (file_exists('../app/vistas/'.$vista.'.php')){
+            extract($datos);
             require_once '../app/vistas/'.$vista.'.php';
         }else{
             //si el archivo de vista no existe

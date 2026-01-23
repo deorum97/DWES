@@ -2,7 +2,6 @@
 namespace App\Controladores;
 
 use App\Librerias\Controlador;
-use App\Modelos\Categoria;
 
 class Categorias extends Controlador{
     public function __construct(){
@@ -10,8 +9,10 @@ class Categorias extends Controlador{
         $this->categoriaModelo = $this->modelo('Categoria');
     }
 
+    private $modelo;
+
     public function index() {
-        $categorias = Categoria::getAllCategorias();
+        $categorias = $this->categoriaModelo->getAllCategorias();
 
         $datos = [
             'titulo' => "Categorias",

@@ -22,6 +22,16 @@ class Core{
         //print_r($this->getUrl());
         $url = $this->getUrl();
 
+        // Si no existe la sesión de correo y no estamos en el controlador de usuarios, redirigimos
+        if (!isset($_SESSION['correo'])) {
+            // Comprobamos si el controlador en la URL es 'usuarios' (insensible a mayúsculas)
+            $controladorUrl = isset($url[0]) ? strtolower($url[0]) : '';
+            if ($controladorUrl !== 'usuarios') {
+                header('Location: ' . RUTA_URL . '/usuarios');
+                exit;
+            }
+        }
+
         //buscar en controladores si el controlador exite
         //if (file_exists(__DIR__.'/../app/controladores/'.
         if (isset($url) && file_exists('../app/controladores/'.
@@ -46,6 +56,7 @@ class Core{
                 unset($url[1]);
             }
         }
+
 
         //Probando el método
         //echo $this->metodoActual;

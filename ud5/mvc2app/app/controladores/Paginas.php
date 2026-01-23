@@ -20,6 +20,7 @@ use App\Librerias\Controlador;
         public function quienes_somos(){
             $datos = [
                 'titulo' => 'Quienes somos',
+                'descripcion' => 'Pagina donde se compran productos para restaurantes',
             ];
             $this->vista('paginas/quienes-somos', $datos);
         }

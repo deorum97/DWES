@@ -15,5 +15,7 @@
             "email": "jorge.r.9763@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^7.0"
+    }
 }

@@ -7,7 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/app/librerias" isTestSource="false" packagePrefix="App\Librerias\" />
       <sourceFolder url="file://$MODULE_DIR$/app/modelos" isTestSource="false" packagePrefix="App\Modelos\" />
       <sourceFolder url="file://$MODULE_DIR$/app/vistas" isTestSource="false" packagePrefix="App\Vistas\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpmailer/phpmailer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
