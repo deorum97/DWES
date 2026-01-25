@@ -27,6 +27,7 @@ class Usuarios extends Controlador{
             $usuario = $this->usuariosModel::login($correo, $clave);
 
             if($usuario){
+                session_start();
                 $_SESSION['correo'] = $usuario['Correo'];
                 $_SESSION['codRes'] = $usuario['CodRes'];
                 header('Location: ' . RUTA_URL . '/categorias');

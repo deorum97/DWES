@@ -11,8 +11,10 @@ namespace App\Config;
 // Ruta de la aplicacion
 define('RUTA_APP', dirname(dirname(__FILE__)));
 
+
 // Ruta url Ej: http://localhost/ud5/mvc2app/
-define('RUTA_URL', 'http://localhost/DWES/ud5/mvc2app');
+//define('RUTA_URL', 'http://localhost/DWES/ud5/mvc2app');
+define('RUTA_URL', 'http://localhost/daw/DWES/ud5/mvc2app');
 
 define('NOMBRESITIO', 'MVC2 APP');
 

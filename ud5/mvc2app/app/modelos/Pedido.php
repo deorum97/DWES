@@ -17,8 +17,8 @@ class Pedido {
         $stmnt = $pdo->prepare($sql);
         $stmnt->bindParam(':restaurante',$this->restaurante);
         $stmnt->execute();
-
         $this->codPed = $pdo->lastInsertId();
+
     }
     public function getCodPed() {
         return $this->codPed;
