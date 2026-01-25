@@ -24,6 +24,7 @@
 
     <button type="submit">Entrar</button>
   </form>
+  <p><a href="<?= h(RUTA_URL) ?>/Paginas/olvido_password">¿Olvidaste tu contraseña?</a></p>
   <p><a href="<?= h(RUTA_URL) ?>/Paginas/registro">¿No tienes cuenta? Regístrate aquí</a></p>
 </section>
 
