@@ -1,0 +1,32 @@
+{
+  "name": "app/restaurante-mvc",
+  "description": "Estoy odiando mucho esta practica",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\Controladores\\": "app/controladores/",
+      "App\\Modelos\\": "app/modelos/",
+      "App\\Librerias\\": "app/librerias/",
+      "App\\Tools\\": "app/helpers/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "JorgeRodriguez",
+      "email": "jrodriguezm12@larioja.edu.es"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "*",
+    "ramsey/uuid": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}

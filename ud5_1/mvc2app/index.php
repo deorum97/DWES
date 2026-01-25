@@ -1,0 +1,23 @@
+<?php
+
+declare(strict_types=1);
+
+require_once __DIR__.'/vendor/autoload.php';
+session_start();
+
+/*
+ * Si el carrito se guardó roto (como __PHP_Incomplete_Class) lo reseteamos
+ * para evitar bucles/errores al entrar.
+ */
+if (isset($_SESSION['carrito']) && is_array($_SESSION['carrito'])) {
+    foreach ($_SESSION['carrito'] as $item) {
+        if ($item instanceof __PHP_Incomplete_Class) {
+            unset($_SESSION['carrito']);
+            break;
+        }
+    }
+}
+
+require_once __DIR__.'/app/iniciador.php';
+
+$iniciar = new App\Librerias\Core();
