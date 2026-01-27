@@ -35,20 +35,32 @@ class ApiCar extends Controlador
     }
 
     public function car(int $id): void {
-        if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
-            $this->jsonResponse(["error" => "Method Not Allowed"], 405);
-            exit;
+
+        switch ($_SERVER['REQUEST_METHOD']) {
+            case 'GET';
+                $car = $this->modelo->getById($id);
+
+                if (!$car) {
+                    $this->jsonResponse(["error" => "Car not found"], 404);
+                    exit;
+                }
+
+                $this->jsonResponse($car, 200);
+                return;
+            case 'DELETE';
+                $car = $this->modelo->deleteById($id);
+                if(!$car){
+                    $this->jsonResponse(["error" => "Car not found"], 404);
+                    exit;
+                }
+                $cardel = $this->modelo->deleteById($id);
+                $this->jsonResponse(["message" => "Car deleted"], 200);
+            default;
+                $this->jsonResponse(["error" => "Method Not Allowed"], 405);
+                return;
         }
 
-        $car = $this->modelo->getById($id);
 
-        if (!$car) {
-            $this->jsonResponse(["error" => "Car not found"], 404);
-            exit;
-        }
-
-        $this->jsonResponse($car, 200);
-        return;
     }
 }
 

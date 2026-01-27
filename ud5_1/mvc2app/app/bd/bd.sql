@@ -205,7 +205,7 @@ INSERT INTO categorias (CodCat, Nombre, Descripcion) VALUES
 -- RESTAURANTES (2)
 INSERT INTO restaurantes (CodRes, Correo, Clave, Pais, CP, Ciudad, Direccion) VALUES
 ('res_R9kLm2n3Pq4St5Uv6Wx7', 'rjorge676@gmail.com', 'rioja2025', 'España', 26001, 'Logroño', 'C/ Laurel 12'),
-('res_J3hG8kL1pQ6sT2vB9nM0', 'jorge.r.9763@gmail.com, 'alfaro2025', 'España', 26540, 'Alfaro', 'Av. Zaragoza 44');
+('res_J3hG8kL1pQ6sT2vB9nM0', 'jorge.r.9763@gmail.com', 'alfaro2025', 'España', 26540, 'Alfaro', 'Av. Zaragoza 44');
 
 -- PRODUCTOS (10)
 INSERT INTO productos (CodProd, Nombre, Descripcion, Peso, Stock, Categoria) VALUES

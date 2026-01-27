@@ -21,7 +21,7 @@ $smtp = $ini['smtp'] ?? [];
 // DB (No quito esto que sino casca)
 $dbHost = (string)($db['host'] ?? (getenv('DB_HOST') ?: '127.0.0.1'));
 $dbUser = (string)($db['user'] ?? (getenv('DB_USUARIO') ?: 'root'));
-$dbPass = (string)($db['pass'] ?? (getenv('DB_PASSWORD') ?: 'rpwd'));
+$dbPass = (string)($db['pass'] ?? (getenv('DB_PASSWORD') ?: 'mysql'));
 $dbName = (string)($db['dbname'] ?? (getenv('DB_NOMBRE') ?: 'gestorrestaurantes'));
 $dbPort = (int)($db['port'] ?? (getenv('DB_PORT') ?: 3306));
 $dbCharset = (string)($db['charset'] ?? (getenv('DB_CHARSET') ?: 'utf8mb4'));

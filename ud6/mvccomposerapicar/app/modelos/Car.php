@@ -125,4 +125,10 @@ class Car
         $row = $this->db->registroAssoc();
         return $row ?: null;
     }
+
+    public function delete(int $id): void {
+        $this->db->query('DELETE FROM cars WHERE id = :id');
+        $this->db->bind(':id', $id, PDO::PARAM_INT);
+        $this->db->execute();
+    }
 }
