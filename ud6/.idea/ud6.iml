@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/mvcapi/app/controladores" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
+      <sourceFolder url="file://$MODULE_DIR$/mvcapi/app/librerias" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
+      <sourceFolder url="file://$MODULE_DIR$/mvcapi/app/modelos" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
+      <sourceFolder url="file://$MODULE_DIR$/mvccomposerapicar/app/controladores" isTestSource="false" packagePrefix="Jrm\Mvc2app\" />
+      <sourceFolder url="file://$MODULE_DIR$/mvccomposerapicar/app/librerias" isTestSource="false" packagePrefix="Jrm\Mvc2app\" />
+      <sourceFolder url="file://$MODULE_DIR$/mvccomposerapicar/app/modelos" isTestSource="false" packagePrefix="Jrm\Mvc2app\" />
+      <sourceFolder url="file://$MODULE_DIR$/mvccurl/app/controladores" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
+      <sourceFolder url="file://$MODULE_DIR$/mvccurl/app/librerias" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
+      <sourceFolder url="file://$MODULE_DIR$/mvccurl/app/modelos" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
+      <excludeFolder url="file://$MODULE_DIR$/mvcapi/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/mvccomposerapicar/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/mvccurl/vendor/composer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
