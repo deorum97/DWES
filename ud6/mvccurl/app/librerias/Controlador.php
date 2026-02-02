@@ -1,5 +1,5 @@
 <?php
-namespace Cls\Mvc2app;
+namespace Jrm\Mvc2app;
 
 class Controlador
 {

@@ -1,7 +1,7 @@
 <?php
-namespace Cls\Mvc2app;
+namespace Jrm\Mvc2app;
 
-use Cls\Mvc2app\Controlador;
+use Jrm\Mvc2app\Controlador;
 
     class Paginas extends Controlador{
 
@@ -49,6 +49,15 @@ use Cls\Mvc2app\Controlador;
             ];
 
             $this->vista('paginas/usuarios_form', $datos);
+        }
+
+        public function mascotas_form()
+        {
+            $datos = [
+                'titulo' => 'Alta de mascotas (vía API REST)',
+            ];
+
+            $this->vista('paginas/mascotas_form', $datos);
         }
 
     }

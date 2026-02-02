@@ -1,5 +1,5 @@
 <?php
-namespace Cls\Mvc2app;
+namespace Jrm\Mvc2app;
 
 /**
 Mapear URL desde el navegador
@@ -12,7 +12,7 @@ formato de la url: BASE_DIR/controlador/metodo/parametro
  */
 class Core
 {
-    protected $controladorActual = 'Cars';
+    protected $controladorActual = 'mascotas';
     protected $metodoActual = 'index';
     protected array $parametros = [];
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Cls\Mvc2app;
+namespace Jrm\Mvc2app;
 
-use Cls\Mvc2app\Controlador;
+use Jrm\Mvc2app\Controlador;
 
 class Api extends Controlador
 {
@@ -144,11 +144,11 @@ class Api extends Controlador
         return null;
     }
 
-    private function validateArticuloPayload(?array $data, bool $requireAllFields = true): ?string
+    private function validateMascotaPayload(?array $data, bool $requireAllFields = true): ?string
     {
         if (!$data) return "Invalid or empty JSON";
 
-        $required = ['titulo','descripcion','foto','cosa'];
+        $required = ['nombre','tipo','fecha_nacimiento','foto_url', 'id_persona'];
         if ($requireAllFields) {
             foreach ($required as $k) {
                 if (!isset($data[$k]) || trim((string)$data[$k]) === '') {
@@ -259,86 +259,86 @@ class Api extends Controlador
         $this->jsonResponse(["error" => "Method Not Allowed"], 405);
     }
 
-    // GET /api/articulos  |  POST /api/articulos
-    public function articulos(): void
+    // GET /api/mascotas  |  POST /api/mascotas
+    public function mascotas(): void
     {
-        $this->requireBasicAuth();
+        //$this->requireBasicAuth();
 
         $method = $this->getRequestMethod();
-        $articuloModelo = $this->modelo('articulo');
+        $mascotaModelo = $this->modelo('mascota');
 
         if ($method === 'GET') {
-            $articulos = $articuloModelo->obtenerArticulos();
-            $this->jsonResponse($articulos, 200);
+            $mascotas = $mascotaModelo->obtenerMascotas();
+            $this->jsonResponse($mascotas, 200);
         }
 
         if ($method === 'POST') {
             $data = $this->readJsonBody();
-            $err = $this->validateArticuloPayload($data, true);
+            $err = $this->validateMascotaPayload($data, true);
             if ($err) {
                 $this->jsonResponse(["error" => $err], 400);
             }
 
-            $ok = $articuloModelo->create($data);
+            $ok = $mascotaModelo->create($data);
             if ($ok) {
-                $this->jsonResponse(["message" => "Articulo created"], 201);
+                $this->jsonResponse(["message" => "Mascota created"], 201);
             }
-            $this->jsonResponse(["error" => "Error creating articulo"], 500);
+            $this->jsonResponse(["error" => "Error creating mascota"], 500);
         }
 
         $this->jsonResponse(["error" => "Method Not Allowed"], 405);
     }
 
-    // GET /api/articulo/1 | PUT /api/articulo/1 | DELETE /api/articulo/1
-    public function articulo(int $id): void
+    // GET /api/mascota/1 | PUT /api/mascota/1 | DELETE /api/mascota/1
+    public function mascota(int $id): void
     {
-        $this->requireBasicAuth();
+        //$this->requireBasicAuth();
 
         $method = $this->getRequestMethod();
-        $articuloModelo = $this->modelo('articulo');
+        $mascotaModelo = $this->modelo('mascota');
 
         if ($id <= 0) {
             $this->jsonResponse(["error" => "Invalid id"], 400);
         }
 
         if ($method === 'GET') {
-            $articulo = $articuloModelo->obtenerArticulo($id);
-            if (!$articulo) {
-                $this->jsonResponse(["error" => "Articulo not found"], 404);
+            $mascota = $mascotaModelo->obtenerMascota($id);
+            if (!$mascota) {
+                $this->jsonResponse(["error" => "Mascota not found"], 404);
             }
-            $this->jsonResponse($articulo, 200);
+            $this->jsonResponse($mascota, 200);
         }
 
         if ($method === 'PUT') {
             $data = $this->readJsonBody();
-            $err = $this->validateArticuloPayload($data, true);
+            $err = $this->validateMascotaPayload($data, true);
             if ($err) {
                 $this->jsonResponse(["error" => $err], 400);
             }
 
-            $exists = $articuloModelo->obtenerArticulo($id);
+            $exists = $mascotaModelo->obtenerMascota($id);
             if (!$exists) {
-                $this->jsonResponse(["error" => "Articulo not found"], 404);
+                $this->jsonResponse(["error" => "Mascota not found"], 404);
             }
 
-            $ok = $articuloModelo->update($id, $data);
+            $ok = $mascotaModelo->update($id, $data);
             if ($ok) {
-                $this->jsonResponse(["message" => "Articulo updated"], 200);
+                $this->jsonResponse(["message" => "Mascota updated"], 200);
             }
-            $this->jsonResponse(["error" => "Error updating articulo"], 500);
+            $this->jsonResponse(["error" => "Error updating mascota"], 500);
         }
 
         if ($method === 'DELETE') {
-            $exists = $articuloModelo->obtenerArticulo($id);
+            $exists = $mascotaModelo->obtenerMascota($id);
             if (!$exists) {
-                $this->jsonResponse(["error" => "Articulo not found"], 404);
+                $this->jsonResponse(["error" => "Mascota not found"], 404);
             }
 
-            $ok = $articuloModelo->delete($id);
+            $ok = $mascotaModelo->delete($id);
             if ($ok) {
-                $this->jsonResponse(["message" => "Articulo deleted"], 200);
+                $this->jsonResponse(["message" => "Mascota deleted"], 200);
             }
-            $this->jsonResponse(["error" => "Error deleting articulo"], 500);
+            $this->jsonResponse(["error" => "Error deleting mascota"], 500);
         }
 
         $this->jsonResponse(["error" => "Method Not Allowed"], 405);

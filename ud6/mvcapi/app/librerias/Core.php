@@ -1,15 +1,6 @@
 <?php
-namespace Cls\Mvc2app;
+namespace Jrm\Mvc2app;
 
-/**
-Mapear URL desde el navegador
-1- controlador
-2- método
-3- parámetro
-
-formato de la url: BASE_DIR/controlador/metodo/parametro
-
- */
 class Core
 {
     protected $controladorActual = 'Paginas';

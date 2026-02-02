@@ -4,7 +4,7 @@
 define('DB_HOST', 'localhost'); //tu servidor de BD.
 define('DB_USUARIO', 'root');
 define('DB_PASSWORD', 'mysql');
-define('DB_NOMBRE', 'test'); // Tu base de datos
+define('DB_NOMBRE', 'examen'); // Tu base de datos
 
 
 
@@ -13,7 +13,7 @@ define('RUTA_APP', (dirname(__DIR__)));
 
 //Ruta url Ejemplo: http://localhost/ud5/mvc2app
 //define ('RUTA_URL', '_URL_');
-define ('RUTA_URL', 'http://localhost/DWES/ud6/mvcapi/public');
+define ('RUTA_URL', 'http://localhost/daw/DWES/ud6/mvcapi/public');
 
 //define ('NOMBRESITIO', '_NOMBRE_SITIO');
 define ('NOMBRESITIO', 'MVC con Composer y API RESTful');
@@ -25,6 +25,6 @@ define ('NOMBRESITIO', 'MVC con Composer y API RESTful');
 
 // Credenciales Basic Auth (didácticas)
 // IMPORTANTE: en producción siempre HTTPS + usuarios reales
-define('API_BASIC_USER', 'profesor');
-define('API_BASIC_PASS', '1234');
+define('API_BASIC_USER', 'felix');
+define('API_BASIC_PASS', 'dwes2026');
 

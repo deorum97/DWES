@@ -1,8 +1,8 @@
 <?php
-namespace Cls\Mvc2app;
+namespace Jrm\Mvc2app;
 
-use Cls\Mvc2app\Controlador;
-use Cls\Mvc2app\Db;
+use Jrm\Mvc2app\Controlador;
+use Jrm\Mvc2app\Db;
 use PDO;
 
 class User{ 
@@ -21,18 +21,18 @@ class User{
     }
 
     public function obtenerUsuarios(){
-        $this->bd->query("SELECT * FROM users");
+        $this->bd->query("SELECT * FROM veterinarios");
         return $this->bd->registros();
     }
 
     public function obtenerUser($num_registro){
-        $this->bd->query("SELECT * FROM users WHERE id = :id");
+        $this->bd->query("SELECT * FROM veterinarios WHERE id = :id");
         $this->bd->bind(':id', $num_registro, PDO::PARAM_INT);
         return $this->bd->registro();
     }
 
     public function loguearUser($nombre, $clave){
-        $this->bd->query("SELECT * FROM users WHERE nombre = :nombre AND clave = :clave");
+        $this->bd->query("SELECT * FROM veterinarios WHERE nombre = :nombre AND clave = :clave");
         $this->bd->bind(':nombre', $nombre);
         $this->bd->bind(':clave', $clave);
         return $this->bd->registro();

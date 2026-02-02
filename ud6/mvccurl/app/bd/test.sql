@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 15-11-2023 a las 19:48:31
--- Versión del servidor: 10.4.28-MariaDB
--- Versión de PHP: 8.2.4
+-- Tiempo de generación: 02-02-2026 a las 13:25:40
+-- Versión del servidor: 10.6.20-MariaDB
+-- Versión de PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,54 +18,132 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `test`
+-- Base de datos: `examen`
 --
 
-CREATE DATABASE test;
-USE test;
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `articulos`
+-- Estructura de tabla para la tabla `mascotas`
 --
 
-CREATE TABLE `articulos` (
-  `id_articulo` int(11) NOT NULL,
-  `titulo` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+CREATE TABLE `mascotas` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `tipo` varchar(30) NOT NULL,
+  `fecha_nacimiento` date DEFAULT NULL,
+  `foto_url` varchar(255) DEFAULT NULL,
+  `id_persona` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Volcado de datos para la tabla `articulos`
+-- Volcado de datos para la tabla `mascotas`
 --
 
-INSERT INTO `articulos` (`id_articulo`, `titulo`) VALUES
-(1, 'Ejemplo artículo 1'),
-(2, 'Ejemplo artículo 2');
+INSERT INTO `mascotas` (`id`, `nombre`, `tipo`, `fecha_nacimiento`, `foto_url`, `id_persona`) VALUES
+(1, 'Rallito', 'tortuga', '2015-09-21', '/public/img/tortuga.jpeg', 1),
+(2, 'Torete', 'agaponi', '2019-01-15', '/public/img/agaponi.jpeg', 2),
+(3, 'Carl', 'gato', '2013-05-07', '/public/img/gato.jpeg', 1);
 
 -- --------------------------------------------------------
 
+--
+-- Estructura de tabla para la tabla `personas`
+--
+
+CREATE TABLE `personas` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `apellidos` varchar(100) DEFAULT NULL,
+  `telefono` varchar(20) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `personas`
+--
+
+INSERT INTO `personas` (`id`, `nombre`, `apellidos`, `telefono`, `email`) VALUES
+(1, 'Juan', 'Pérez', '600111222', 'juan@test.com'),
+(2, 'Ana', 'López', '600333444', 'ana@test.com');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `veterinarios`
+--
+
+CREATE TABLE `veterinarios` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `clave` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `veterinarios`
+--
+
+INSERT INTO `veterinarios` (`id`, `nombre`, `email`, `clave`) VALUES
+(1, 'Dr. García', 'garcia@vet.com', '1234'),
+(2, 'Dra. Ruiz', 'ruiz@vet.com', '1234');
 
 --
 -- Índices para tablas volcadas
 --
 
 --
--- Indices de la tabla `articulos`
+-- Indices de la tabla `mascotas`
 --
-ALTER TABLE `articulos`
-  ADD PRIMARY KEY (`id_articulo`);
+ALTER TABLE `mascotas`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `fk_mascotas_personas` (`id_persona`);
+
+--
+-- Indices de la tabla `personas`
+--
+ALTER TABLE `personas`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `veterinarios`
+--
+ALTER TABLE `veterinarios`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
 --
--- AUTO_INCREMENT de la tabla `articulos`
+-- AUTO_INCREMENT de la tabla `mascotas`
 --
-ALTER TABLE `articulos`
-  MODIFY `id_articulo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+ALTER TABLE `mascotas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT de la tabla `personas`
+--
+ALTER TABLE `personas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT de la tabla `veterinarios`
+--
+ALTER TABLE `veterinarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `mascotas`
+--
+ALTER TABLE `mascotas`
+  ADD CONSTRAINT `fk_mascotas_personas` FOREIGN KEY (`id_persona`) REFERENCES `personas` (`id`) ON DELETE CASCADE;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

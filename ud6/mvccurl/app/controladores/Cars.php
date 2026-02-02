@@ -1,7 +1,7 @@
 <?php
-namespace Cls\Mvc2app;
+namespace Jrm\Mvc2app;
 
-use Cls\Mvc2app\Controlador;
+use Jrm\Mvc2app\Controlador;
 
 class Cars extends Controlador
 {

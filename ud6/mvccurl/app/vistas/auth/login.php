@@ -82,7 +82,7 @@ Error HTTP <?php echo (int)$datos['http']; ?>:
                     return;
                 }
 
-                window.location.href = '<?php echo rtrim(RUTA_URL,'/'); ?>/articulos/index';
+                window.location.href = '<?php echo rtrim(RUTA_URL,'/'); ?>/mascotas/index';
             }
 
         } catch (err) {
