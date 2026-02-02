@@ -13,7 +13,7 @@ define('RUTA_APP', (dirname(__DIR__)));
 
 //Ruta url Ejemplo: http://localhost/ud5/mvc2app
 //define ('RUTA_URL', '_URL_');
-define ('RUTA_URL', 'http://localhost/daw/DWES/ud6/mvcapi/public');
+define ('RUTA_URL', 'http://localhost/DWES/ud6/mvcapi/public');
 
 //define ('NOMBRESITIO', '_NOMBRE_SITIO');
 define ('NOMBRESITIO', 'MVC con Composer y API RESTful');

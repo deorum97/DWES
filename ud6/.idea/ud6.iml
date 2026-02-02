@@ -5,9 +5,6 @@
       <sourceFolder url="file://$MODULE_DIR$/mvcapi/app/controladores" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
       <sourceFolder url="file://$MODULE_DIR$/mvcapi/app/librerias" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
       <sourceFolder url="file://$MODULE_DIR$/mvcapi/app/modelos" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
-      <sourceFolder url="file://$MODULE_DIR$/mvccomposerapicar/app/controladores" isTestSource="false" packagePrefix="Jrm\Mvc2app\" />
-      <sourceFolder url="file://$MODULE_DIR$/mvccomposerapicar/app/librerias" isTestSource="false" packagePrefix="Jrm\Mvc2app\" />
-      <sourceFolder url="file://$MODULE_DIR$/mvccomposerapicar/app/modelos" isTestSource="false" packagePrefix="Jrm\Mvc2app\" />
       <sourceFolder url="file://$MODULE_DIR$/mvccurl/app/controladores" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
       <sourceFolder url="file://$MODULE_DIR$/mvccurl/app/librerias" isTestSource="false" packagePrefix="Cls\Mvc2app\" />
       <sourceFolder url="file://$MODULE_DIR$/mvccurl/app/modelos" isTestSource="false" packagePrefix="Cls\Mvc2app\" />

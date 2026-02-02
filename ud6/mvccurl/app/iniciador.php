@@ -1,4 +1,8 @@
 <?php
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
+
     //Cargamos librerias
     require_once __DIR__.'/../app/config/config.php';
 

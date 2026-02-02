@@ -71,7 +71,7 @@ class Cars extends Controlador
         ];
     }
 
-    // GET http://localhost/daw/DWES/ud6/mvccurl/cars/index
+    // GET http://localhost/DWES/ud6/mvccurl/cars/index
     public function index(): void
     {
         $resp = $this->apiGet(API_CARS_LIST);
@@ -86,7 +86,7 @@ class Cars extends Controlador
         $this->vista('cars/index', $datos);
     }
 
-    // GET http://localhost/daw/DWES/ud6/mvccurl/cars/show/3
+    // GET http://localhost/DWES/ud6/mvccurl/cars/show/3
     public function show(int $id): void
     {
         $path = sprintf(API_CAR_ITEM, $id);

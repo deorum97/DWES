@@ -8,8 +8,8 @@
 </p>
 
 <?php
-// Endpoint REST (mismo proyecto). Sin hardcodear carpetas.
-$API_CARS_ENDPOINT = rtrim(RUTA_URL, '/') . '/api/cars';
+// Endpoint REST apuntando al servidor API (mvcapi)
+$API_CARS_ENDPOINT = rtrim(API_BASE_URL, '/') . '/api/cars';
 ?>
 
 <style>

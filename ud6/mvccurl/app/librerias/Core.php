@@ -12,7 +12,7 @@ formato de la url: BASE_DIR/controlador/metodo/parametro
  */
 class Core
 {
-    protected $controladorActual = 'Paginas';
+    protected $controladorActual = 'Cars';
     protected $metodoActual = 'index';
     protected array $parametros = [];
 

@@ -1,4 +1,4 @@
-@baseUrl = http://localhost/daw/DWES/ud6/mvcapi
+@baseUrl = http://localhost/DWES/ud6/mvcapi
 
 ### LISTAR
 GET {{baseUrl}}/api/cars
